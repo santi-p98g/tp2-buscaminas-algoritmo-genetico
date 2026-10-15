@@ -65,7 +65,7 @@ Los resultados muestran que el AG puede encontrar distribuciones válidas en ins
 
 ## Cómo ejecutar
 
-1. Abrir [`notebooks/Buscaminas.ipynb`](notebooks/Buscaminas.ipynb) en **Google Colab**.
+1. Abrir [`notebook/Buscaminas.ipynb`](notebooks/Buscaminas.ipynb) en **Google Colab**.
 2. En Colab, seleccionar **Entorno de ejecución → Ejecutar todas** (o reiniciar la sesión y ejecutar todas las celdas).
 3. Revisar las tablas, los tableros propuestos y los gráficos de evolución.
 4. Consultar los archivos exportados en `resultados/csv/` y `resultados/graficos/`.
