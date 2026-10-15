@@ -34,10 +34,10 @@ $$
 La aptitud se calcula como:
 
 $$
-\operatorname{aptitud}(c)=\frac{1}{1+P(c)}
+\text{aptitud}(c) = \frac{1}{1 + P(c)}
 $$
 
-Una solución con **penalización 0** tiene **aptitud 1** y satisface las restricciones modeladas.
+Una solución con **penalización 0** tiene **aptitud 1** y satisface todas las restricciones del tablero.
 
 ## Experimentos y resultados
 
