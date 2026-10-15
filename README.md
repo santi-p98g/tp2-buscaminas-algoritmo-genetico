@@ -27,15 +27,15 @@ El problema es combinatorio: cada casilla oculta puede contener una mina o estar
 
 La función de penalización suma las diferencias absolutas entre las minas propuestas alrededor de cada pista y su valor, más la diferencia absoluta respecto del total conocido de minas:
 
-\[
+$$
 P(c) = \sum_{p \in \text{pistas}} |\text{valor}(p)-\text{minas vecinas}(p,c)| + |\text{minas propuestas}(c)-\text{total de minas}|
-\]
+$$
 
 La aptitud se calcula como:
 
-\[
+$$
 \operatorname{aptitud}(c)=\frac{1}{1+P(c)}
-\]
+$$
 
 Una solución con **penalización 0** tiene **aptitud 1** y satisface las restricciones modeladas.
 
@@ -65,7 +65,7 @@ Los resultados muestran que el AG puede encontrar distribuciones válidas en ins
 
 ## Cómo ejecutar
 
-1. Abrir [`notebook/Buscaminas.ipynb`](notebooks/Buscaminas.ipynb) en **Google Colab**.
+1. Abrir [`notebook/Buscaminas.ipynb`](notebook/Buscaminas.ipynb) en **Google Colab**.
 2. En Colab, seleccionar **Entorno de ejecución → Ejecutar todas** (o reiniciar la sesión y ejecutar todas las celdas).
 3. Revisar las tablas, los tableros propuestos y los gráficos de evolución.
 4. Consultar los archivos exportados en `resultados/csv/` y `resultados/graficos/`.
